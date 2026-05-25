@@ -154,7 +154,7 @@ ymap/
 User types:  ymap -A 192.168.1.1
             │
     ┌───────▼────────┐
-│   |    cli.py      │  Parse flags, validate --cve-check input,
+    |    cli.py      │  Parse flags, validate --cve-check input,
     │                │  prompt for API key if --add-nvd-api-key
     └───────┬────────┘
             │              ScanConfig object
