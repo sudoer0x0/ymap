@@ -1,7 +1,7 @@
 # Ymap — Yung Mapper 🗺️
 
 > Lightweight, easy-to-remember network scanner built in Python.  
-> Author: **Adekunle Abdulmujeeb** · Version: **1.0.0**
+> Developer: **Adekunle Abdulmujeeb** · Version: **1.0.0**
 
 ---
 
@@ -10,7 +10,7 @@
 ```bash
 pip3 install ymap
 # or from source:
-git clone https://github.com/abdulmujeeb/ymap && cd ymap && pip3 install .
+git clone https://github.com/sudoer0x0/ymap.git && cd ymap && pip3 install .
 ```
 
 ---
@@ -132,4 +132,4 @@ The author accepts no liability for misuse.
 
 ## License
 
-MIT © 2024 Adekunle Abdulmujeeb
+MIT © 2026 Adekunle Abdulmujeeb

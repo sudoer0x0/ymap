@@ -167,13 +167,13 @@ def _print_help():
 
         # ── Footer ────────────────────────────────────────────────────────────
         c.print()
-        c.print(f"  [dim]Author: [cyan]{__author__}[/cyan]  •  MIT License  •  github.com/abdulmujeeb/ymap[/dim]")
+        c.print(f"  [dim]Developer: [cyan]{__author__}[/cyan]  •  MIT License  •  https://github.com/sudoer0x0/ymap.git[/dim]")
         c.print()
 
     except ImportError:
         # Plain-text fallback
         print(f"  Ymap v{__version__} — Yung Mapper")
-        print(f"  Author: {__author__}")
+        print(f"  Developer: {__author__}")
         print("  ymap <target>          Basic scan")
         print("  ymap -a <target>       Aggressive scan (sudo)")
         print("  ymap --help            Full flag reference")
