@@ -94,7 +94,7 @@ Ymap uses zero Nmap binaries or libraries. All raw packet operations use Scapy. 
 pip3 install ymap
 
 # From source
-git clone https://github.com/abdulmujeeb/ymap.git
+git clone https://github.com/sudoer0x0/ymap.git
 cd ymap
 pip3 install .
 ```
