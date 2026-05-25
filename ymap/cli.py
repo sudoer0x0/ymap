@@ -112,6 +112,8 @@ def _print_help():
             else:
                 c.print(f"{indent}[dim]{cmd}[/dim]")
 
+
+        
         # ── Basic Usage ──────────────────────────────────────────────────────
         _section("Basic Usage")
         _row("ymap <target>",                    "Scan top 1000 ports  (default)")
@@ -164,6 +166,17 @@ def _print_help():
         _row("10.0.0.0/24",          "CIDR subnet range")
         _row("192.168.1.1-50",       "Last-octet range (50 hosts)")
         _row("example.com",          "Hostname — resolved before scanning")
+
+        # ── About──────────────────────────────────────────────────────
+        _section("About")
+        _row("App: ",                 "Yung Mapper (Ymap)")
+        _row("Developer: ",                 "Adekunle Abdulmujeeb")
+        _row("License: ",                    "MIT")
+        _row("Language: ",                    "Python 3.8+")
+        _row("Version: ",                    "1.0.0")
+        _row("Repository: ",      "https://github.com/sudoer0x0/ymap")
+        _row("Clone: ",           "git clone https://github.com/sudoer0x0/ymap.git")
+        _row("Get a free key: ",  "https://nvd.nist.gov/developers/request-an-api-key")
 
         # ── Footer ────────────────────────────────────────────────────────────
         c.print()
