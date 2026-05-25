@@ -6,7 +6,7 @@
 
 ---
 **Version:** 1.0.0  
-**Author:** Adekunle Abdulmujeeb  
+**Developer:** Adekunle Abdulmujeeb   
 **License:** MIT  
 **Language:** Python 3.8+
 
