@@ -1,5 +1,10 @@
-# Ymap — Technical Documentation
+# Ymap: Technical Documentation
 
+[![Python ≥ 3.9](https://img.shields.io/badge/python-≥3.9-blue)](https://python.org)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![PyPI](https://img.shields.io/badge/pypi-yhash-orange)](https://pypi.org/project/ymap)
+
+---
 **Version:** 1.0.0  
 **Author:** Adekunle Abdulmujeeb  
 **License:** MIT  
