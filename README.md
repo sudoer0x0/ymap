@@ -152,15 +152,15 @@ ymap/
 
 ```
 User types:  ymap -A 192.168.1.1
-                 │
-         ┌───────▼────────┐
-         │    cli.py      │  Parse flags, validate --cve-check input,
-         │                │  prompt for API key if --add-nvd-api-key
-         └───────┬────────┘
-                 │  ScanConfig object
-         ┌───────▼────────┐
-         │    core.py     │  Orchestrates all phases in order
-         └──┬─────────────┘
+            │
+    ┌───────▼────────┐
+│   | cli.py         │  Parse flags, validate --cve-check input,
+    │                │  prompt for API key if --add-nvd-api-key
+    └───────┬────────┘
+            │              ScanConfig object
+    ┌───────▼────────┐
+    │    core.py     │  Orchestrates all phases in order
+    └───────┬────────┘
             │
     ┌───────▼──────────┐   Phase 1: is host reachable?
     │  discovery.py    │   Phase 2: -D sweep or single-host check

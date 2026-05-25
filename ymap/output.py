@@ -156,9 +156,9 @@ def print_discovery(results: List[HostResult], elapsed: float):
             box=box.ROUNDED, border_style="cyan", header_style="bold cyan",
         )
         table.add_column("IP ADDRESS",      style="bold white", no_wrap=True, min_width=16)
-        table.add_column("HOSTNAME / NAME", style="white",      min_width=28)
-        table.add_column("MAC ADDRESS",     style="magenta",    no_wrap=True, min_width=18)
-        table.add_column("VENDOR",          style="dim magenta", min_width=22)
+        table.add_column("HOSTNAME / NAME", style="bold white",      min_width=28)
+        table.add_column("MAC ADDRESS",     style="bold white",    no_wrap=True, min_width=18)
+        table.add_column("VENDOR",          style="bold white", min_width=22)
         table.add_column("LATENCY",         style="green", justify="right", min_width=10)
         for h in results:
             table.add_row(
